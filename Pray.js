@@ -2,9 +2,7 @@
  * 
  */
 
-	function goMadLib(formData) { 
-		console.log("here");
-    //let formData = document.body.getElementById("formData");
+function goMadLib(formData) { 
 
     let noun = formData.elements.namedItem("noun").value;
     let activity = formData.elements.namedItem("activity").value;
@@ -21,5 +19,5 @@
     
     document.getElementById("content").innerHTML = newContent;
     
-	}
+}
 	
