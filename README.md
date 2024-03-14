@@ -1,3 +1,3 @@
-# First
+# Mad Libs Fun for Thanksgiving
 
-My first repository.
+A simple Mad Libs that I coded on Thanksgiving Day to learn how HTML, Javascript, and CSS work.
