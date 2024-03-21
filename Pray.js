@@ -9,13 +9,13 @@ function goMadLib(formData) {
     let different = formData.elements.namedItem("different").value;
     let final = formData.elements.namedItem("final").value;
     
-    let newContent = "I found myself here " + noun + ".";
+    let newContent = "I found myself here " + noun + ". ";
 
-    newContent += "I wanted to know what I should do here and I did this -- " + activity + ".";
+    newContent += "I wanted to know what I should do here and I did this -- " + activity + ". ";
 
-    newContent += "Then, I decided to do something different and I did this -- " + different + ".";
+    newContent += "Then, I decided to do something different and I did this -- " + different + ". ";
     
-    newContent += "Finally, I did this --" + final + ".";
+    newContent += "Finally, I did this -- " + final + ". ";
     
     document.getElementById("content").innerHTML = newContent;
     
