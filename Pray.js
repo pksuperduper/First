@@ -11,7 +11,7 @@ function goMadLib(formData) {
     
     let newContent = "I found myself here " + noun + ".";
 
-    newContent += "I wanted to know what I should do and I did this -- " + activity + ".";
+    newContent += "I wanted to know what I should do here and I did this -- " + activity + ".";
 
     newContent += "Then, I decided to do something different and I did this -- " + different + ".";
     
