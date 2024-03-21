@@ -13,7 +13,7 @@ function goMadLib(formData) {
 
     newContent += "I wanted to know what I should do and I did this -- " + activity + ".";
 
-    newContent += "Then, I decided to do something different and " + different + ".";
+    newContent += "Then, I decided to do something different and I did this -- " + different + ".";
     
     newContent += "Finally, I did this --" + final + ".";
     
